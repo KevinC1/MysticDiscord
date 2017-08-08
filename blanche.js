@@ -425,7 +425,9 @@ if (message.content.startsWith("!zwarte")) {message.reply("**Gym: Zwarte Zwaan**
 
 if (message.content.startsWith('!delete')) {
 if(message.member.roles.has(moderator)) {
-message.channel.bulkDelete(11);
+  var del = message.content.split(" ");
+  del.splice(0, 1);
+  message.channel.bulkDelete(del);
 } else { message.reply('Alleen moderators kunnen berichten verwijderen') }
 message.delete() }
 });
