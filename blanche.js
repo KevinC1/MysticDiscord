@@ -102,7 +102,7 @@ client.on("message", (message) => {
     message.delete()
   } else
   if (message.content === '!zapdos') {
-    message.reply('**#145 - Zapdos** [Electric Flying]\nweakness: x1.4: [Rock Ice]\nWonder CP: 1861 - 1902 \n```Att: Charge Beam    Zap Cannon```');
+    message.reply('**#145 - Zapdos** [Electric Flying]\nweakness: x1.4: [Rock Ice]\nWonder CP: 1861 - 1902 \n```Att: Charge Beam    Thunderbolt```');
     message.delete()
   } else
   if (message.content === '!moltres') {
