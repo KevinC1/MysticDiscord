@@ -286,7 +286,7 @@ var gymarray = {
 
 };
 if (gymarray[message.content]) {
-   message.channel.send(gymarray[message.content]); }
+   message.channel.send(gymarray[message.content]); } else
 
 
 //give trusted role, admin only
