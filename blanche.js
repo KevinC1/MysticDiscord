@@ -145,48 +145,48 @@ client.on("message", (message) => {
 
 //justforlol
 
-  if (message.content.startsWith('!mystic') {
+  if (message.content('!mystic')) {
     message.channel.send('**Team Mystic**\nI am Blanche, leader of Team Mystic. The wisdom of Pokémon is immeasurably deep. I am researching why it is that they evolve.\nMy team? With our calm analysis of overy situation, we cant lose!', {
       file: "https://pogosa.net/images/mystic_leader.png" });
     setTimeout(() => {
     message.channel.send('Wat een prachtige woorden vind je niet? Met onze wijsheid kunnen we samen met onze Pokémon elke uitdaging aan!');;},1000);
     message.delete()
   } else
-  if (message.content.startsWith('!valor') {
+  if (message.content('!valor')) {
     message.channel.send('**Team Valor**\nI am Candela, Tem Valor Leader!. Pokemon are stronger than humans, and they are warmhearted, too! I am researching ways to enhance Pokémon natural power in the pursuit of true strength. There is no doubt that the Pokémon in our team have trained are the strongest in battle! Are you ready?', {
       file: "https://pogosa.net/images/valor_leader.png" });
     setTimeout(() => {
     message.channel.send('Pokemon sterker dan mensen? Bij jullie team twijfel ik daar soms over.... Dat onderzoek van jullie om pokemon sterker te maken is in elk geval hard nodig bij team faler!');;},1000);
     message.delete()
   } else
-  if (message.content.startsWith('!instinct') {
+  if (message.content('!instinct')) {
     message.channel.send('**Team Instinct**\nHey! The names Spark- the leader of Team Instinct. Pokémon are creatures with excellent intuition. I bet the secret to their intuition is related to how theyre hatched. Come on and join my team! You never lose when you trust your instincts!', {
       file: "https://pogosa.net/images/instinct_leader.png" });
     setTimeout(() => {
     message.channel.send('Vertrouwen op je intuitie? We leven toch zeker niet meer in de steentijd? En wat heeft hebben die eieren daar nu weer mee te maken? Met dit soort uitspraken lijkt het soms alsof je zelf uit een ei bent gekomen...');;},1000);
     message.delete()
   } else
-  if (message.content.startsWith('!delft') {
+  if (message.content('!delft')) {
     message.reply('Delft is het gebied waar wij proberen orde op zaken te stellen. Met de invasie van Candela en Spark hebben we flink werk aan de winkel. De gyms die we blauw willen houden, en de verschillende gebieden vanuit waar we dat organiseren zijn te vinden in: <https://www.google.com/maps/d/u/0/edit?mid=11DnpOBi-AsstZGT07NGO9txzxsU&ll=52.00888637739794%2C4.361529349999955&z=13>');
     message.delete()
   } else
-  if (message.content.startsWith('!spoofer') {
+  if (message.content('!spoofer')) {
     message.reply('Een spoofer is iemand die het een goed idee vind om dit spel vanaf de bank te spelen. Dit soort treurige personen die hun pokemon niet waard zijn manipuleren hun GPS om het spel te spelen. Moge Niantics banhamer genadeloos zijn');
     message.delete()
   } else
-  if (message.content.startsWith('!delft') {
+  if (message.content('!delft')) {
     message.reply('Delft is het gebied waar wij proberen orde op zaken te stellen. Met de invasie van Candela en Spark hebben we flink werk aan de winkel. De gyms die we blauw willen houden, en de verschillende gebieden vanuit waar we dat organiseren zijn te vinden in: <https://www.google.com/maps/d/u/0/edit?mid=11DnpOBi-AsstZGT07NGO9txzxsU&ll=52.00888637739794%2C4.361529349999955&z=13>');
     message.delete()
   } else
-  if (message.content.startsWith('!minortextfixes') {
+  if (message.content('!minortextfixes')) {
     message.reply('Minor text fixes verwijst gekmakend naar het regelmatig incapabele niantic. Het is een referentie naar een van de eerste updates waar het spel bijzonder slecht functioneerde en iedereen aan het wachten was op optimalisaties. Na de lange tijd van wachten verscheen eindelijk de update, en de change log was: *minor text fixes*');
     message.delete()
   } else
-  if (message.content.startsWith('!niantic') {
+  if (message.content('!niantic')) {
     message.reply('Niantic is het bedrijf dat Ingress 2 ontwikkelde en het Pokémon Go noemde. Door de gigantische populariteit van Pokémon is dit spel echter veel groter geworden, waardoor ze flink aan het groeien zijn.');
     message.delete()
   } else
-  if (message.content.startsWith('!pokemon') || message.content('!pokémon')) {
+  if (message.content('!pokemon') || message.content('!pokémon')) {
     message.reply('Pokémon zijn de loslopende beestjes die je kunt vangen om ze voor de glorie van team Mystic tegen Valor en Instinct te laten strijden.');
     message.delete()
   } else
