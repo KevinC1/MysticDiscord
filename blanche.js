@@ -197,6 +197,10 @@ client.on("message", (message) => {
     message.reply('Weer of geen weer, Valor en Instinct moeten uit hun gyms geschopt! Dus pak je revives, en ga ervoor! Articuno is niet voor niets de stormvogel!');
     message.delete()
   } else
+  if (message.content === '!tutorial') {
+    message.reply('Pokémon go lijkt simpel, maar stiekem is het een best complex spel. Niet gevreesd, er is een hele tutorial voor geschreven! <https://delftmystic.wordpress.com/>');
+    message.delete()
+  } else
   if (message.content === '!ash') {
     message.reply('Een trainer uit Palet Town waardoor alle Pokémon hype is begonnen. Als hij trouw was gebleven aan zijn goede pokemon had hij het waarschijnlijk ver geschopt, maar hij vond het blijkbaar leuker om steeds opnieuw te beginnen.');
     message.delete()
