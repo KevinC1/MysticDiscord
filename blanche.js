@@ -290,6 +290,8 @@ if (gymarray[message.content]) {
 
 
 //give trusted role, admin only
+//werkt wel, maar ik wil dat de moderator role op dezelfde manier gedetecteerd kan worden als de makingdelftblueagain role.
+     //nu is het namelijk niet te testen op verschillende servers omdat de roleID anders is...
 
  if (message.content.startsWith('!add')) {
  if(message.member.roles.has(moderator)) {
@@ -390,7 +392,7 @@ if (gymarray[message.content]) {
  message.delete()
  } else
 
-//delete messages
+//delete messages (help! :P werkt niet)
 
 if (message.content.startsWith('!delete')) {
 if(message.member.roles.has(moderator)) {
