@@ -189,6 +189,11 @@ client.on("message", (message) => {
     message.reply('Pokémon zijn de loslopende beestjes die je kunt vangen om ze voor de glorie van team Mystic tegen Valor en Instinct te laten strijden.');
     message.delete()
   } else
+  if (message.content === '!weerbericht') {
+    message.reply('Weer of geen weer, Valor en Instinct moeten uit hun gyms geschopt! Dus pak je revives, en ga ervoor! Articuno is niet voor niets de stormvogel!');
+    message.delete()
+  } else
+
 
 //gyms
 if (message.content.startsWith("!3 variaties op een vierkant 2")) {message.reply("**Gym: 3 Variaties op een vierkant 2**\n<https://goo.gl/maps/WBmE2s8ypYU2>")} else
@@ -324,7 +329,6 @@ if (message.content.startsWith("!zwarte")) {message.reply("**Gym: Zwarte Zwaan**
  message.delete() }  else
 
 //request gym roles
-
  if (message.content.startsWith('!+centrum')) {
  let role = message.guild.roles.find("name", "Centrum");
  message.member.addRole(role).catch(console.error);
@@ -369,7 +373,6 @@ if (message.content.startsWith("!zwarte")) {message.reply("**Gym: Zwarte Zwaan**
  } else
 
 //remove gym roles
-
  if (message.content.startsWith('!-centrum')) {
  let role = message.guild.roles.find("name", "Centrum");
  message.member.removeRole(role).catch(console.error);
