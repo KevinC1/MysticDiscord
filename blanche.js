@@ -212,7 +212,7 @@ if (message.content.startsWith("!cannon")) {message.reply("**Gym: Cannon**\n<htt
 if (message.content.startsWith("!climb")) {message.reply("**Gym: Climb the Frogs**\n<https://goo.gl/maps/XWeyq5BrBV22>")} else
 if (message.content.startsWith("!color")) {message.reply("**Gym: Color Sculpture**\n<https://goo.gl/maps/kR2QeheLsZz>")} else
 if (message.content.startsWith("!coligny")) {message.reply("**Gym: De Coligny**\n<https://goo.gl/maps/fNgWYGgmQQD2>")} else
-if (message.content.startsWith("!delftse")) {message.reply("**Gym: De Delftse Pauw**\n<https://goo.gl/maps/CVrYXSJfwf32>")} else
+if (message.content.startsWith("!delftse pauw")) {message.reply("**Gym: De Delftse Pauw**\n<https://goo.gl/maps/CVrYXSJfwf32>")} else
 if (message.content.startsWith("!hofstee")) {message.reply("**Gym: De Hofstee**\n<https://goo.gl/maps/kkwdPP9jce82>")} else
 if (message.content.startsWith("!kamer")) {message.reply("**Gym: De Kamer van Charilabla 1614**\n<https://goo.gl/maps/jC6osbaZcaG2>")} else
 if (message.content.startsWith("!nieuwe")) {message.reply("**Gym: De Nieuwe Lente**\n<https://goo.gl/maps/D1ZGGvH1ED72>")} else
@@ -223,6 +223,7 @@ if (message.content.startsWith("!stier")) {message.reply("**Gym: De Stier**\n<ht
 if (message.content.startsWith("!delft central")) {message.reply("**Gym: Delft Central Station**\n<https://goo.gl/maps/a5ypCkobkQ22>")} else
 if (message.content.startsWith("!delfts blauwe")) {message.reply("**Gym: Delfts Blauwe Stenen**\n<https://goo.gl/maps/kJSKksZZPwq>")} else
 if (message.content.startsWith("!delftse tegelmannen")) {message.reply("**Gym: Delftse Tegelmannen**\n<https://goo.gl/maps/eVA5ufuajzo>")} else
+if (message.content.startsWith("!tegelmannen")) {message.reply("**Gym: Delftse Tegelmannen**\n<https://goo.gl/maps/eVA5ufuajzo>")} else
 if (message.content.startsWith("!delftshout")) {message.reply("**Gym: Delftshout Levenslust**\n<https://goo.gl/maps/uwD9bsXTb5U2>")} else
 if (message.content.startsWith("!delta rescue")) {message.reply("**Gym: Delta Rescue**\n<https://goo.gl/maps/s3nxAxVVu9G2>")} else
 if (message.content.startsWith("!dok")) {message.reply("**Gym: Dok Delft Bibliotheek**\n<https://goo.gl/maps/KPuHh3CV2Yk>")} else
@@ -422,7 +423,6 @@ if (message.content.startsWith("!zwarte")) {message.reply("**Gym: Zwarte Zwaan**
  } else
 
 //delete messages
-
 if (message.content.startsWith('!delete')) {
 if(message.member.roles.has(moderator)) {
   var del = message.content.split(" ");
